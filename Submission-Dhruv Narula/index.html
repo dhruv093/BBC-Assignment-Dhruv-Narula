@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html  lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	
+	<title>Sterling Coins Calculator</title>
+	
+	<meta name="description" content="BBC Assignment">
+	<meta name="author" content="Dhruv Narula" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />	
+		
+</head>
+<body>
+
+	<div class="header-container">
+       <h1>STERLING CALCULATOR</h1>
+	   <label>Enter the value in the text box for coin conversion. Use only &pound, p and numbers.<small>Eg. 123p / &pound12.34 / 141</small><small>*Press 'Enter' key to calculate</small></label>
+    </div>
+		
+	<div class="input-center">
+		<input id="coinValue" name="value" maxlength="22" type="text" placeholder="Enter monetary value for coin conversion." tabindex="1" />
+		<aside id="validationMsg"></aside>
+	</div>
+	
+	<div id="coinResult">
+		
+	</div>		
+
+	<div class="footer">Assignment submitted by <strong>DHRUV NARULA</strong>.&nbsp&nbsp&nbspPh.- +91-9811123965&nbsp&nbsp&nbspEmail- dhruv093@gmail.com </div>
+	
+	<script src="js/sterling.js" type="text/javascript"></script>
+	
+	<script>
+		// Event listener for amount field.
+		document.getElementById("coinValue").addEventListener("keydown", Sterlings.init, false);
+	</script>
+</body>
+</html>

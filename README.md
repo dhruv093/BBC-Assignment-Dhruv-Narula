@@ -17,7 +17,7 @@ How to run the project
 
 1. Download the zip file and extract contents. 
 
-2. Open the "Submission-Dhruv Narula" folder and double click on the "index.html" file.
+2. Open the "BBC-Assignment-Dhruv-Narula-master" folder and double click on the "index.html" file.
 
 3. Select the textbox to enter the 'amount' for conversion (eg. 123p) and press "Enter" key. The result will be displayed below. 
 
